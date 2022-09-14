@@ -12,8 +12,6 @@ df.head()
 features = ['Annual_Income_(k$)', 'Spending_Score']
 X = df[features]
 
-import seaborn as sns
-
 step_size = 0.01
 
 x_min, x_max = min(X.iloc[:,0]) - 1, max(X.iloc[:,0]) + 1
